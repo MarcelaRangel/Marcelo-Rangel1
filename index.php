@@ -4,7 +4,7 @@ include 'resources/head.php';//chamo o cabeçalho da pagina salvo na pasta resou
 <div class="container"> <!-- crio o container para comportar todas as divs-->
 	<div class="row"><!-- crio uma linha para os botoes onde todos os botoes ficam alinhados-->
 		<br><!-- Pula linha -->
-		<div class="col s2 center"><!-- crio uma div/Coluna, para os botoes nao ficarem juntos-->
+		<div class="col s2 center"><!-- crio uma div/Coluna, para os botoes nao ficarem juntos onde col s2 significa 2 colunas, e center é para centralizar o botão na div-->
 		<a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a><!-- Os botoes onde "ADD" é o nome do icone dentro do botão-->
 		<h6>Adicionar Produto</h6><!-- Texto abaixo do botão-->
 		</div><!-- fecho a div-->
