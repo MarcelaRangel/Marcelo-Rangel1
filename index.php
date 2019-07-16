@@ -1,13 +1,13 @@
 <?php
-include 'resources/head.php';
+include 'resources/head.php';//chamo o cabeçalho da pagina salvo na pasta resources;
 ?>
-<div class="container">
-	<div class="row">
-		<br>
-		<div class="col s2 center">
-		<a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a>
-		<h6>Adicionar Produto</h6>
-		</div>
+<div class="container"> <!-- crio o container para comportar todas as divs-->
+	<div class="row"><!-- crio uma linha para os botoes onde todos os botoes ficam alinhados-->
+		<br><!-- Pula linha -->
+		<div class="col s2 center"><!-- crio uma div/Coluna, para os botoes nao ficarem juntos-->
+		<a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a><!-- Os botoes onde "ADD" é o nome do icone dentro do botão-->
+		<h6>Adicionar Produto</h6><!-- Texto abaixo do botão-->
+		</div><!-- fecho a div-->
 		<div class="col s2 center">
 		<a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">delete_forever</i></a>
 		<h6>Excluir<br>Produto</h6>
@@ -28,9 +28,9 @@ include 'resources/head.php';
 		<a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">remove</i></a>
 		<h6>Retirar qtde. Produto</h6>
 		</div>
-	</div>
-  </div>
-</div>
+	</div><!-- fecho a div de linha-->
+</div><!-- Fecho a div de container-->
+
 <?php
-include 'resources/footer.php';
+include 'resources/footer.php';//Faço a chamada do footer salvo na pasta resource.
 ?>
