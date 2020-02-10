@@ -8,9 +8,9 @@ $custo = filter_input(INPUT_POST 'tCusto', FILTER_SANITIZE_STRING);
 $qntd = filter_input(INPUT_POST 'tqntd', FILTER_SANITIZE_STRING);
 
 echo "Nome: $Nome  ";<br>
-echo "Preço: $tpreco ";<br> 
-echo "Custo: $tcusto "; <br>
-echo "Quantidade: $tqntd  ";<br>
+echo "Preço: $preco ";<br> 
+echo "Custo: $custo "; <br>
+echo "Quantidade: $qntd  ";<br>
 
 $result_produto = "INSERT INTO produto(nome,preço,custo,qntd) VALUES ('$nome','$preco','$custo','$qntd')"; 
 $resultado_produto = mysql_query($conn, $result_produto);
